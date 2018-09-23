@@ -40,7 +40,7 @@ ElbowDn=[0,1,0]
 
 import csv
 
-with open("/home/pi/motions.txt") as f: 
+with open("motions.txt") as f: 
     polyShape = []
     for line in f:
            row= map(int, line.split(','))

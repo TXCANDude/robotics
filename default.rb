@@ -18,3 +18,8 @@ execute 'Install' do
   action:run
   ignore_failure true
 end
+
+execute 'Install readchar' do
+  command 'pip install readchar'
+  action:run
+end
